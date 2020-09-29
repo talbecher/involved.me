@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.AddMemberTest"/>
+      <class name="tests.AddNewProjectTest"/>
+      <class name="tests.WhatAnimalAreYouTest"/>
+      <class name="tests.BaseTest"/>
+      <class name="tests.AddAnotherProjectTest"/>
+      <class name="tests.RenameWsTest"/>
+      <class name="tests.DeleteWsTest"/>
+      <class name="tests.SortingTest"/>
+      <class name="tests.LoginTest"/>
+      <class name="tests.CreateNewWsTest"/>
+      <class name="tests.IntegrationTest"/>
+      <class name="tests.AddTemplateToProjectTest"/>
+      <class name="tests.deleteProjectTest"/>
+      <class name="tests.ProjectsOptionsTest"/>
+      <class name="tests.MainMenuTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
